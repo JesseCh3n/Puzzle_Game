@@ -18,13 +18,13 @@ public class LevelManager : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("Hi, I am here");
         GameManager.GetInstance().ChangeState(GameManager.GameState.GameOver, this);
     }
 
     public void EndLevel()
     {
         _onLevelEnd?.Invoke();
+
         if (_isFinalLevel)
         {
             //TODO: Game Ended

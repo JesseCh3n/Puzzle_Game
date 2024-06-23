@@ -8723,10 +8723,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 950381285}
-    - targetCorrespondingSourceObject: {fileID: 5713972555823028467, guid: 0acab3e0e126db34f85ae16d6ff26ba9,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 950381288}
   m_SourcePrefab: {fileID: 100100000, guid: 0acab3e0e126db34f85ae16d6ff26ba9, type: 3}
 --- !u!4 &950381273 stripped
 Transform:
@@ -8830,19 +8826,6 @@ CapsuleCollider:
   m_Height: 2.0000002
   m_Direction: 1
   m_Center: {x: 0, y: 0.00000011920929, z: 0.0000038146973}
---- !u!114 &950381288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950381275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb5056405dbab644b76804a31644d1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 10
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -20345,7 +20328,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurretEnemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3543238221189770405, guid: 839c89e4bc2ffeb4f832e44071968704, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -20361,10 +20345,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2106417858}
-    - targetCorrespondingSourceObject: {fileID: 8492682992387780225, guid: 839c89e4bc2ffeb4f832e44071968704,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2106417859}
   m_SourcePrefab: {fileID: 100100000, guid: 839c89e4bc2ffeb4f832e44071968704, type: 3}
 --- !u!4 &2106417850 stripped
 Transform:
@@ -20468,22 +20448,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 2.2356853
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2106417859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106417852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feb5056405dbab644b76804a31644d1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 0
+  m_Center: {x: 0, y: 0.9083462, z: 0}
 --- !u!1001 &2112865690
 PrefabInstance:
   m_ObjectHideFlags: 0

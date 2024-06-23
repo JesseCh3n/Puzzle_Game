@@ -18,7 +18,6 @@ public class GameOverTrigger : MonoBehaviour
     {
         _playerHealth._onDeath += PlayerDie;
         _timer._onGameOver += TimeExpired;
-        Debug.Log(_timer._onGameOver);
     }
 
     public void PlayerDie()
